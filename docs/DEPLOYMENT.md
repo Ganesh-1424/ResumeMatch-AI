@@ -150,7 +150,7 @@ Response:
 2. Import your Git repository.
 3. Configure the project settings:
    - **Framework Preset:** `Vite`
-   - **Root Directory:** `./` (workspace root)
+   - **Root Directory:** `frontend`
    - **Build Command:** `npm run build`
    - **Output Directory:** `dist`
    - **Install Command:** `npm install`
@@ -175,7 +175,7 @@ Vercel is pre-configured via the root `vercel.json` file:
   ]
 }
 ```
-This guarantees that navigating directly or refreshing URLs like `/login`, `/dashboard`, or `/results` routes cleanly to the React SPA without 404 errors. Additionally, `public/_redirects` is provided for Netlify and Render Static Sites.
+The Vercel configuration is in `frontend/vercel.json`. This guarantees that navigating directly or refreshing URLs like `/login`, `/dashboard`, or `/results` routes cleanly to the React SPA without 404 errors. Additionally, `public/_redirects` is provided for Netlify and Render Static Sites.
 
 ---
 
