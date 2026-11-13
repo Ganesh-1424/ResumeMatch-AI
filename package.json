@@ -1,0 +1,17 @@
+{
+  "name": "resumematch-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI Resume & Job Matcher - Full Stack Platform",
+  "scripts": {
+    "start": "npm run start --prefix backend",
+    "backend": "npm run start --prefix backend",
+    "backend:dev": "npm run dev --prefix backend",
+    "frontend": "npm run dev --prefix frontend",
+    "frontend:build": "npm run build --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "test": "npm run test --prefix backend",
+    "install:all": "npm install --prefix frontend && npm install --prefix backend"
+  }
+}
+
